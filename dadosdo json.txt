@@ -1,0 +1,109 @@
+projetista
+
+{
+    "nome": "Patrick & Sons",
+    "cnpj": "4733345885",
+    "email": "ps@outlook.com",
+    "telefone": "45769087",
+    "cep": "29088543",
+    "logradouro": "rua Alfredo",
+    "numerolocal": "100",
+    "cidade": "Cacapava",
+    "complemento": "zona industrial",
+    "uf": "sp"
+    
+
+
+}
+
+cliente
+
+{
+    "nome": "Charles",
+    "cpf": "4733345885",
+    "email": "charliebrown@outlook.com",
+    "telefone": "893727865",
+    "cep": "03421800",
+    "logradouro": "rua benedict",
+    "numerolocal": "12",
+    "cidade": "Osasco",
+    "complemento": "Piratininga",
+    "uf": "sp"
+    
+
+
+}
+
+
+usuario
+
+{
+
+	"email": "terra1@terra.com.br",
+	"senha": "1234567890",
+	"username": "terrestre",
+	"projetista_id": "1"
+
+
+
+}
+
+
+cliente
+
+{
+    "nome": "Charles",
+    "cpf": "4733345885",
+    "email": "charliebrown@outlook.com",
+    "telefone": "893727865",
+    "cep": "03421800",
+    "logradouro": "rua benedict",
+    "numerolocal": "12",
+    "cidade": "Osasco",
+    "complemento": "Piratininga",
+    "uf": "sp"
+    
+
+
+}
+
+
+
+cotacao
+
+{
+  "dataRecebimento": "2024-08-29",          // Data de recebimento (formato: yyyy-MM-dd)
+  "descricao": "Descrição detalhada da cotação.",  // Descrição da cotação (máximo 700 caracteres)
+  "caminhoArquivo": "/path/to/file",       // Caminho ou URL do arquivo (máximo 255 caracteres)
+  "cliente": {
+    "id": 1  // ID do cliente (deve existir no banco de dados)
+  },
+  "projetista": {
+    "idPro": 1  // ID do projetista (deve existir no banco de dados)
+  }
+}
+
+orcamento
+
+{
+    "cliente": {
+        "id": 1  // Substitua pelo ID válido do cliente
+    },
+    "projetista": {
+        "idPro": 1  // Substitua pelo ID válido do projetista, se necessário
+    },
+    "descricao": "Descrição do orçamento",
+    "valor": 450.00  // Substitua pelo valor desejado
+}
+
+cotacoes
+
+{
+    "cliente_id": "2",
+	"projetista_id": "2",
+	"caminho_arquivo": "/documentos/modelo.stp",
+	"data_recebimento": "21/09/2024",
+	"descricao": "misfit22"
+    
+
+}

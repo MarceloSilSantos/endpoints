@@ -1,0 +1,6 @@
+biblioteca lighthouse:
+
+"lighthouse": "lighthouse http://localhost:8080 --output-path./lighthouse-report.html"
+
+
+npm install lighthouse
